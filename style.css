@@ -1,0 +1,11 @@
+body {
+    display: block;
+}
+
+
+
+form label {
+    font-size: 20px;
+    display: block;
+    margin: 0 0 10px;
+}
