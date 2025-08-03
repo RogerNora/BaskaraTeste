@@ -12,18 +12,24 @@
 
     <p> Considerando a equanção do timpo ax²+bx+c=0 escreva os parametros abaixo:</p>
     
-    <form>
-        <label for="a"> parametro <strong> a </strong> </label> 
-        <input type="text" id="par_A" class="input-padrao" required>
+    <section class="entrada_de_dados"> 
+        <form>
+            <label for="a"> parametro <strong> a </strong> </label> 
+            <input type="number" id="par_A"  required>
 
-        <label for="b"> parametro <strong> b </strong> </label>
-        <input type="text" id="par_B" class="input-padrao" required>
+            <label for="b"> parametro <strong> b </strong> </label>
+            <input type="number" id="par_B" required>
 
-        <label for="c"> parametro <strong> c </strong> </label>
-        <input type="text" id="par_C" class="input-padrao" required>
-    </form>
-
-   <input type="submit" value="Calcular" class="calcular">
+            <label for="c"> parametro <strong> c </strong> </label>
+            <input type="number" id="par_C" required>
+        </form>
+    </section>
+    <!-- Botao-->
+    <div>
+        <button onclick="calcularX()">Calcular</button>
+        <div class="resultado" id="resultadoConta"></div>
+    </div>
+   
     
     <script src="script.js"></script>
 </body>

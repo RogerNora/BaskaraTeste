@@ -14,16 +14,5 @@ form label {
     width: 20%;
     padding: 5px 0px;
     margin-left: 30px;
-    background: orange;
-    color: black;
-    font-weight: bolder;
-    font-size: 20px;
-    border-radius: 20px;
-    transition: 1s all;
-    cursor: pointer;
-}
-
-.calcular:hover {
-    background:darkorange ;
-    transform: scale(1.1);
+    
 }
