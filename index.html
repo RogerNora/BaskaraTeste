@@ -1,36 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baskara</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <h1> Calculadora de Baskara</h1>
 
-    <h1>  Calculadora de Baskara</h1>
+    <p> Considerando a equanção do tipo ax²+bx+c=0 escreva os parametros abaixo:</p>
 
-    <p> Considerando a equanção do timpo ax²+bx+c=0 escreva os parametros abaixo:</p>
-    
-    <section class="entrada_de_dados"> 
-        <form>
-            <label for="a"> parametro <strong> a </strong> </label> 
-            <input type="number" id="par_A"  required>
+    <section class="entrada_de_dados">
+        <input type="number" id="par_A" placeholder="digite o parametro A" step="any" />
+        <input type="number" id="par_B" placeholder="digite o parametro B" step="any" />
+        <input type="number" id="par_C" placeholder="digite o parametro C" step="any" />
 
-            <label for="b"> parametro <strong> b </strong> </label>
-            <input type="number" id="par_B" required>
-
-            <label for="c"> parametro <strong> c </strong> </label>
-            <input type="number" id="par_C" required>
-        </form>
     </section>
     <!-- Botao-->
     <div>
-        <button onclick="calcularX()">Calcular</button>
-        <div class="resultado" id="resultadoConta"></div>
+        <button id=calculaAi>Calcular</button>
     </div>
-   
-    
+    <div>
+        <p class="red" id="resultado"> </p>
+    </div>
+
     <script src="script.js"></script>
 </body>
+
 </html>
